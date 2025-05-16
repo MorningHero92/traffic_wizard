@@ -1,2 +1,3 @@
 .venv/
 flaskr/static/uploads/
+flaskr/__pycache__/
