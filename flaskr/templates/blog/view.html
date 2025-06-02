@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}"{{ post['title'] }}"{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <article>{{ post['body'] }}</article>
+  <footer>created by {{ post['author_id'] }} at {{ post['created']}}</footer>
+{% endblock %}

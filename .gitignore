@@ -1,3 +1,6 @@
 .venv/
 flaskr/static/uploads/
 flaskr/__pycache__/
+instance/
+*.sqlite
+Description.txt
